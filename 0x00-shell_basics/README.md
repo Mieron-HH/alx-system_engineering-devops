@@ -48,4 +48,8 @@
 
 >>> 12-file_type
 	=> file /tmp/iamafile
-	- prints the type of the file named iamafile located in the /tmp directory  
+	- prints the type of the file named iamafile located in the /tmp directory
+
+>>> 13-symbolic_link
+	=> ln -s /bin/ls __ls__
+	- create a symbolic link to /bin/ls, named __ls__ 
