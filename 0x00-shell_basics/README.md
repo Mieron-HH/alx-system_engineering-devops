@@ -13,3 +13,7 @@
 >>> 3-listfiles
 	=> ls -l
 	- displays current directory contents in a long format
+
+>>> 4-listmorefiles
+	=> ls -la
+	- displays current directory contents, including hidden files (st	   arting with .)
