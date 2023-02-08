@@ -33,3 +33,7 @@
 >>> 8-firstdelete
 	=> rm /tmp/my_first_directory/betty
 	- deletes the file betty in /tmp/my_first_directory/ directory
+
+>>> 9-firstdirdeletion
+	=> rm -rf /tmp/my_first_directory
+	- deletes the directory my_first_directory that is in the /tmp directory
