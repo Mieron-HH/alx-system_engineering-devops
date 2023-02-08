@@ -37,3 +37,7 @@
 >>> 9-firstdirdeletion
 	=> rm -rf /tmp/my_first_directory
 	- deletes the directory my_first_directory that is in the /tmp directory
+
+>>> 10-back
+	=> cd -
+	- changes the working directory to the previous one
