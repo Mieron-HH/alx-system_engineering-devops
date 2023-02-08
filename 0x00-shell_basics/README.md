@@ -16,4 +16,8 @@
 
 >>> 4-listmorefiles
 	=> ls -la
-	- displays current directory contents, including hidden files (st	   arting with .)
+	- displays current directory contents, including hidden files (starting with i.)
+
+>>> 5-listfilesdigitonly
+	=> ls -lan
+	- displays current directory contents in a long format with user and group IDs displayed numerically, including hidden files (starting with .)
