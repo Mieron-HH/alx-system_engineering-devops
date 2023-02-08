@@ -21,3 +21,7 @@
 >>> 5-listfilesdigitonly
 	=> ls -lan
 	- displays current directory contents in a long format with user and group IDs displayed numerically, including hidden files (starting with .)
+
+>>> 6-firstdirectory
+	=> mkdir tmp/my_first_directory
+	-  creates a directory named my_first_directory in the /tmp/ directory
