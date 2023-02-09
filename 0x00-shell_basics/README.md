@@ -68,4 +68,8 @@
 
 >>> 102-tree
 	=> mkdir -p welcome/to/school
-	- creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory 
+	- creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory
+
+>>> 103-commas
+	=> ls -amp
+	- lists all the files and directories of the current directory, separated by commas (,) 
