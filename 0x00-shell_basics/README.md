@@ -64,4 +64,8 @@
 
 >>> 101-clean_emacs
 	=> rm *~
-	-  deletes all files in the current working directory that end with the character ~ 
+	-  deletes all files in the current working directory that end with the character ~
+
+>>> 102-tree
+	=> mkdir -p welcome/to/school
+	- creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory 
