@@ -72,4 +72,8 @@
 
 >>> 103-commas
 	=> ls -amp
-	- lists all the files and directories of the current directory, separated by commas (,) 
+	- lists all the files and directories of the current directory, separated by commas (,)
+
+>>> school.mgc
+	=> 0 string SCHOOL school
+	- a magic file that can be used with the command file to detect School data files that always contain the string SCHOOL at offset 0
