@@ -33,3 +33,7 @@
 >>> 8-James_Bond
 	=> chmod 007 hello
 	-  sets the permission to the file hello as -------rwx
+
+>>> 8-James_Bond
+	=> chmod 753 hello
+	- sets the mode of the file hello to -rwxr-x-wx
