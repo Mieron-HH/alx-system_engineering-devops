@@ -45,3 +45,7 @@
 >>> 11-directories_permissions
 	=> chmod -R a+x .
 	- adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
+
+>>> 12-directory_permissions
+	=> mkdir -m 751 my_dir
+	- creates a directory called my_dir with permissions 751 in the working directory
