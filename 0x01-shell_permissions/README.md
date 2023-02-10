@@ -13,3 +13,7 @@
 >>> 3-new_owner
 	=> chown betty hello
 	- changes the owner of the file hello to the user betty
+
+>>> 4-empty
+	=> echo > hello
+	- creates an empty file called hello
