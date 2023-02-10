@@ -58,6 +58,10 @@
 	=> chmod -R vincent:staff .
 	- changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
 
->> 101-symbolic_link_permissions
+>>> 101-symbolic_link_permissions
 	=> chmod -h vincent:staff _hello
 	- changes the owner and the group owner of a symbolic file called _hello to vincent and staff respectively
+
+>>> 102-if_only
+	=> chmod --from=guillaume betty hello
+	- changes the owner of the file hello to betty only if it is owned by the user guillaume
