@@ -57,3 +57,7 @@
 >>> 100-change_owner_and_group
 	=> chmod -R vincent:staff .
 	- changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
+
+>> 101-symbolic_link_permissions
+	=> chmod -h vincent:staff _hello
+	- changes the owner and the group owner of a symbolic file called _hello to vincent and staff respectively
