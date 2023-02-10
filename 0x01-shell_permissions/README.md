@@ -17,3 +17,7 @@
 >>> 4-empty
 	=> echo > hello
 	- creates an empty file called hello
+
+>>> 5-execute
+	=> chmod u+x hello
+	- adds execute permission to the owner of the file hello
