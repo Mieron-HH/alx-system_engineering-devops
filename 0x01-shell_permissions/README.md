@@ -37,3 +37,7 @@
 >>> 8-James_Bond
 	=> chmod 753 hello
 	- sets the mode of the file hello to -rwxr-x-wx
+
+>>> 10-mirror_permissions
+	=> chmod --reference=olleh hello
+	- sets the mode of the file hello the same as olleh’s mode
